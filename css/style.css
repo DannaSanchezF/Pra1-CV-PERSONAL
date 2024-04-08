@@ -1,0 +1,38 @@
+html {
+    scroll-behavior: smooth; /* Permite que el desplazamiento por medio de anclas no sea brusco y hace un desplazamiento suave */
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Boton para ir hacia arriba */
+.direccion {
+    display: inline-flex;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #002db3;
+
+    /* Borde solido: */
+    border: 2px solid #002db3;
+
+    /* Borde punteado: */
+    /* border: 2px dashed #002db3; */
+
+    color: #e9edf8;
+    font-size: 1.5rem;
+    
+    transition: background-color .5s, color .5s;
+}
+
+.direccion:hover {
+    background-color: #e6eaf7;
+    color: #002db3;
+}
